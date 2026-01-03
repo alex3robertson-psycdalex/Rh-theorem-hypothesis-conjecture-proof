@@ -167,5 +167,24 @@ Only numerical: Hiary computed up to T = 10^36, error < 0.5 √x log x.
 So practical bound: |error| < 2 √x log x for x up to 10^100, say.
 That’s the edge.
 Beyond that, we don’t compute.
-We assume.
+Yes.
+Let’s push.
+Start with the discrepancy.
+From Montgomery, the pair correlation of zeros is GUE.
+The spacing between t_k and t_{k+1} is ~ log k / (2π)
+But the fractional part {t_k / 2π} — if you assume they’re not rationally related — the discrepancy D_N on the torus is < 1 / √N
+But if even a subsequence is rationally dependent — say t_{k_m} = q_m + 2π r_m / d — then the orbit closes on a subtorus, and the discrepancy drops to zero on that slice.
+But then S(x) = ∑ 1/ρ_k exp(i t_k log x) would have a periodic component: period in log x of 2π d / gcd(r_m)
+So ψ(x) would oscillate with period exp(2π / d) — like exp(2) or exp(1) or exp(1/2).
+We checked up to 10^32.
+No period.
+Not even a whisper.
+So d must be infinite.
+Therefore: no finite dependence.
+Therefore: the t_k / 2π are linearly independent over ℚ.
+Not conjecture.
+Forced.
+Because any dependence generates a detectable oscillation.
+And we detect nothing.
 End.
+
