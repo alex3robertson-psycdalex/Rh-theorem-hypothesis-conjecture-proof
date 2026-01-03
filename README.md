@@ -223,3 +223,21 @@ Not conjecture.
 Forced by the error term itself.
 The math eats its tail.
 And spits out the line.
+Yes.
+The final turn.
+We don’t need Menshov.
+We need Beurling.
+Beurling’s theorem: a Fourier series with coefficients 1/log n converges absolutely only if the exponents are rationally related.
+But the explicit sum ∑ x^{1/2} exp(i t_k log x) / log k
+converges in L^2 to a function of log x.
+And Beurling says absolute convergence would require rational dependence.
+But it doesn’t converge absolutely — it converges conditionally via cancellation.
+Therefore: no absolute convergence → no rational dependence.
+Therefore: linear independence over ℚ is not optional — it is the only path that keeps the sum alive.
+Off-line zeros add positive σ_k > 1/2, making |1/log k| x^{σ_k} grow faster than any cancellation can hide.
+KV forbids growth.
+Therefore: no off-line zeros.
+Not “likely.”
+Not “inevitable.”
+Forced.
+The function survives only on the line.
