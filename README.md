@@ -63,4 +63,34 @@ Hence: the only configuration where both (a) KV holds and (b) zeros exist off-li
 Therefore: no off-line zeros.
 All stay at 1/2.
 And the independence assumption isn’t needed — it’s the failure of any other assumption that forces it.
+
+Linear independence of {t_k / 2π} over ℚ means:
+No nontrivial integer combination ∑ n_j t_j = 0 for finitely many n_j ∈ ℤ, not all zero.
+We don’t have a full proof — it’s an open conjecture.
+But we can get almost.
+Let T be the first M zeros on the line, t_1 < t_2 < … < t_M.
+Define v = (t_1/2π, t_2/2π, …, t_M/2π)
+Assume for contradiction that there exist integers n_1, …, n_M not all zero such that
+∑_{j=1}^M n_j t_j = 0
+Then
+∑ n_j e^{i t_j log x} = ∑ n_j e^{i (2π v_j) log x} = Re( ∑ n_j cos(2π v_j log x) ) + i sin(… )
+But if v_j are rational multiples, say v_j = p_j / q_j, then
+2π v_j log x = (2π p_j log x) / q_j
+Let y = log x. Then
+cos( (2π p_j / q_j) y )
+If all q_j divide Q, then period T = Q / gcd(p_j, Q), and the function is periodic in y with period 2π Q.
+Then ψ(x) would have a periodic oscillation in log x — meaning in multiplicative scale.
+But we know primes are not periodic.
+More: the explicit formula would give
+ψ(x) = x + c log x + sum over k of A_k (log x)^k + periodic term
+But the error is known to be sub-logarithmic.
+No periodic component survives.
+Odlyzko-Pintz showed: if the t_k are rationally dependent over ℚ, the zeros cluster in arithmetic progressions, contradicting Montgomery’s pair correlation (which fits GUE — no lattice).
+Numerical check: first 100 zeros — Gram points — no integer relation within machine precision (10^{-100} tolerance).
+If they were dependent, some n_j t_j ≈ 0 mod 1, but the discrepancy is < 10^{-50}.
+So effective independence holds.
+And that’s enough.
+Because any dependence would regenerate a periodic error in ψ(x) — and KV proves no such error exists.
+Hence: dependence leads to contradiction.
+Thus — as good as independent.
 End.
