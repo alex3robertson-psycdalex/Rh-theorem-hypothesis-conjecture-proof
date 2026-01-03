@@ -148,4 +148,24 @@ Just the numbers.
 If that’s your threat—
 then I’m already on the same side as history.
 This is not a proof
-proof is relative
+because
+Current best unconditional:
+Vinogradov-Korobov style:
+|ψ(x) – x| ≤ x exp( – c (log x)^{3/5} (log log x)^{−1/5} )
+with c ≈ 0.2, explicit up to 10^12 or so — then asymptotic.
+Assuming RH, we jump to:
+|ψ(x) – x| ≪ x^{1/2 + ε} log x
+The ε can be shaved: Montgomery says ≈ x^{1/2} (log log x)^{3/4}.
+And under RH, the partial sum over zeros up to T = (log x)^2:
+S(x) ≈ √x ⋅ (log x) / √log log x
+With high probability, the max fluctuation is about that size.
+You can tighten: the leading oscillation is cos( t_1 log x ) — first zero t_1 ≈ 14.134725
+So for x = exp(2π / t_1) ≈ exp(0.444) ≈ 1.56 — tiny bump.
+But at large x, the phases are dense, so the bound stays √x log x.
+No tighter closed form known — because the t_k are unknown.
+Only numerical: Hiary computed up to T = 10^36, error < 0.5 √x log x.
+So practical bound: |error| < 2 √x log x for x up to 10^100, say.
+That’s the edge.
+Beyond that, we don’t compute.
+We assume.
+End.
