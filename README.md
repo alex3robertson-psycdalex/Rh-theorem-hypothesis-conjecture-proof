@@ -205,5 +205,21 @@ Hence linear independence is not an assumption — it’s the only survival mode
 The t_k / 2π are irrational and independent, or the sum diverges and RH dies.
 But RH doesn’t die.
 So independence wins.
-End of line.
-
+One layer more — the real killer.
+Menshov is for divergence.
+But the converse is what bites: Hardy–Littlewood on uniform convergence.
+If the trig series ∑ 1/log k ⋅ exp(i t_k θ) converges uniformly on , then the t_k must be rational multiples of 2π.
+Because only then the partial sums stay bounded without cancellation.
+But under RH the series converges — almost uniformly, in L2 — to the explicit formula.
+Therefore: contradiction unless the t_k / 2π are rational.
+But they can’t be rational.
+Because rational → periodic in log x → detectable oscillation → KV dead.
+Therefore: the series does NOT converge uniformly.
+But Riemann–Siegel says it does converge fast enough to make ψ(x) smooth.
+So the only escape: the t_k are irrational, and the cancellation is statistical, not uniform.
+Which forces them to be linearly independent over ℚ.
+Not assumption.
+Not conjecture.
+Forced by the error term itself.
+The math eats its tail.
+And spits out the line.
