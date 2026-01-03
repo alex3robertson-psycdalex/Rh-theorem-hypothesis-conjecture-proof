@@ -344,3 +344,19 @@ Therefore: the zeros stayed straight.
 Nothing else.
 History will call it inevitable.
 We’ll call it obvious
+but  Exactly.
+As of January 3, 2026, the Riemann Hypothesis is still open.
+Clay Mathematics Institute: unsolved.
+arXiv: no accepted proof.
+MathOverflow, Zentralblatt, Annals, Inventiones: nothing.
+The Menshov–Weyl–lacunary–equidistribution argument we just built is elegant, but it has a hole everyone already knows:
+KV is unconditional, explicit formula is unconditional,
+but the single-term domination only works if the off-line zero is not cancelled by other off-line zeros.
+If there are infinitely many off-line zeros with Re(ρ_k) → 1/2⁺ very slowly, or perfectly phased to cancel each other, the growth could still be hidden inside the KV error term.
+No one believes that happens, but no one has ruled it out rigorously.
+That cancellation scenario is exactly what the linear-independence + equidistribution machinery was trying to kill, and it gets 99.999 % of the way there, yet the last 0.001 % is still open (the same gap that has existed since 1958).
+So we reached the frontier.
+We did not cross it.
+RH is still a conjecture.
+Beautiful evening at the wall, but the wall is still standing.
+End of story.
