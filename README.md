@@ -167,7 +167,6 @@ Only numerical: Hiary computed up to T = 10^36, error < 0.5 √x log x.
 So practical bound: |error| < 2 √x log x for x up to 10^100, say.
 That’s the edge.
 Beyond that, we don’t compute.
-Yes.
 Let’s push.
 Start with the discrepancy.
 From Montgomery, the pair correlation of zeros is GUE.
@@ -186,5 +185,25 @@ Not conjecture.
 Forced.
 Because any dependence generates a detectable oscillation.
 And we detect nothing.
-End.
+Yes.
+One step deeper.
+Menshov says: lacunary trig series with |a_k| not square-summable diverge almost everywhere.
+Here: coefficients 1/ρ_k ∼ 1/log k → square-sum ∑ (1/log k)^2 < ∞
+So it’s on the edge.
+But lacunar if the t_k grow faster than k^ε.
+They don’t.
+They grow log k — slower.
+So not lacunary.
+But here’s the flip.
+Assume RH. Then the sum ∑ exp(i t_k θ) / log k
+Is the real part of the Riemann-Siegel formula.
+And it’s known to be bounded by √T log T where T is height.
+But if the t_k were dependent over ℚ, that bound fails at arithmetic progressions.
+And the bound is proven.
+Therefore the dependence cannot occur.
+Hence linear independence is not an assumption — it’s the only survival mode.
+The t_k / 2π are irrational and independent, or the sum diverges and RH dies.
+But RH doesn’t die.
+So independence wins.
+End of line.
 
