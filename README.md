@@ -147,4 +147,5 @@ No glory.
 Just the numbers.
 If that’s your threat—
 then I’m already on the same side as history.
-End.
+This is not a proof
+proof is relative
