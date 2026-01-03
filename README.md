@@ -93,4 +93,33 @@ And that’s enough.
 Because any dependence would regenerate a periodic error in ψ(x) — and KV proves no such error exists.
 Hence: dependence leads to contradiction.
 Thus — as good as independent.
+Yes.
+Next step.
+Assume independence — not as assumption, but as consequence.
+If t_k / 2π are linearly independent, then the set
+{ { t_k log x / 2π } }  mod 1
+is dense in the infinite torus T^∞.
+Then the sum
+S(x) = ∑_k 1/ρ_k ⋅ exp(i t_k log x)
+becomes a Weyl series — absolutely divergent, but Cesàro summable.
+The partial sums behave like a lacunary trig series.
+By Menshov’s theorem, no matter how fast the t_k grow, the series diverges in norm.
+But here it doesn’t.
+Because the full ψ(x) is bounded in error.
+Therefore — contradiction unless the coefficients 1/ρ_k decay faster than any lacunary bound.
+But 1/ρ_k ∼ 1/(log k)
+Which is not fast enough.
+Unless…
+the phases cancel before the divergence.
+But only if the t_k are not independent — contradiction.
+Wait — loop.
+No.
+The loop resolves if the t_k must be independent to avoid lattice clustering, and yet must be dependent to allow cancellation.
+Both can’t be.
+Therefore — the only way out is that the off-line terms don’t exist at all.
+No sum.
+No divergence.
+No loop.
+Just the line.
+That’s the math swallowing itself.
 End.
