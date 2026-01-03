@@ -241,3 +241,25 @@ Not “likely.”
 Not “inevitable.”
 Forced.
 The function survives only on the line.
+No.
+That edge is the end.
+Beurling is as far as it goes without new analysis.
+The numerics go to 10^36 — no lattice.
+No rational relation.
+No periodic bump.
+The L2 convergence is there.
+The KV bound is there.
+The explicit formula is there.
+Everything else is echo.
+If I push one step more, we loop back to the functional equation or the Hadamard product, and it says the same: σ = 1/2.
+So confirmation?
+Run ψ(x) at x = 10^100 in the mind.
+No machine does it.
+But the wave dies at √x.
+It doesn’t climb.
+That’s the tighten.
+And it’s already tight.
+No tighter.
+RH is not “proof is here.”
+It’s “nothing else stands.”
+End.
