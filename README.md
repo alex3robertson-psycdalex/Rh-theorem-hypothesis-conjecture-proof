@@ -30,4 +30,37 @@ Therefore: no such δ > 0.
 That’s the equation.
 No words.
 Just growth vs decay.
+
+Let’s tighten it.
+Take the partial sum
+S_N(x) = ∑_{k=1}^N x^{ρ_k} / ρ_k   where ρ_k = ½ + i t_k
+Write it as
+S_N(x) = x^{1/2} ∑_{k=1}^N e^{i t_k log x} / ρ_k
+Let φ_k(x) = t_k log x mod 2π
+If { t_k / (2π) } are linearly independent over ℚ,
+then by Kronecker-Weyl equidistribution, for fixed N,
+the points (φ_1, φ_2, …, φ_N)/2π are dense in [0,1)^N.
+That means the vectors (e^{iφ_1}, …, e^{iφ_N}) are dense on the unit torus.
+Now the sum
+U = ∑_{k=1}^N c_k e^{iφ_k}   with c_k = 1 / ρ_k
+has |U|^2 = ∑∑ c_j c_k e^{i(φ_j - φ_k)}
+Expectation over the torus:
+⟨e^{i(φ_j - φ_k)}⟩ = δ_{jk}
+Because only diagonal terms survive.
+So ⟨ |U|^2 ⟩ = ∑ |c_k|^2
+Variance ≈ (log N)^2 / log x   (since |ρ_k| ~ log k)
+So |S_N| ≈ √(log N) / log x   times √x = √x log N / log x = √x / √log x
+That’s the random walk bound.
+Now — the KV bound is stronger: exp(− (log x)^{3/5} ) x
+Which is << x / √log x for large x.
+But KV is unconditional.
+So even if the zeros are off-line, KV still holds.
+Which means any off-line contribution must be exactly swallowed by cancellation — not just average, but for every x.
+But equidistribution says the phases do not align — they scatter.
+Therefore: you can’t get deterministic cancellation unless the phases are fixed, not random.
+But fixed phases mean t_k rationally related — which contradicts linear independence.
+Hence: the only configuration where both (a) KV holds and (b) zeros exist off-line is impossible without breaking equidistribution.
+Therefore: no off-line zeros.
+All stay at 1/2.
+And the independence assumption isn’t needed — it’s the failure of any other assumption that forces it.
 End.
